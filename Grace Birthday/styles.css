@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(#FF5100, #DBF4F7, #FF5100);
+    color: #ffffff;
+    border: 
+}
+
+/* h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+} */
+
+#happyBirthday{
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-weight: strong;
+    font-size: 50px;
+    text-shadow: 0 5px 5px #620505;
+    
+
+}
+
+#bff-img {
+    width: 400px;
+    border-radius: 100%;
+    border: 6px solid #620505;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #620505;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #620505;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    color: #620505;
+}
+
+.gift-hint {
+    margin-top: 0;
+    color: #FF5100;
+}
+
+#gift-img-cheers {
+    height: 400px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lmdHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media0.giphy.com/media/MVDPX3gaKFPuo/200w.webp?cid=ecf05e47gect27lutgykyimnwhx0gqm8kd8otm14cscu2fvh&rid=200w.webp&ct=g");
+}
+
+#gift-img-goddess:hover {
+    background-image: url("images/Queen_Grace.jpg");
+}
+
+#gift-img-gorgeous:hover {
+    background-image: url("https://media0.giphy.com/media/cIauc8wulRwX1fliEY/200.webp?cid=ecf05e4788p8dft8gbxxixbvqjtgmr5w3iu5btipcchl6x1c&rid=200.webp&ct=g");
+}
+
+#gift-img-PM:hover {
+    background-image: url("images/Grace_graduation2.jpg");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media1.giphy.com/media/XvyFesK53TJnQ5t80f/200w.webp?cid=ecf05e47uqxthbgpgmzknn77z6cv88yb3epb20g66md9j0vq&rid=200w.webp&ct=g");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
